@@ -1,0 +1,72 @@
+/* AI Generated (ChatGPT) */
+.hero {
+  padding: 22px 18px 10px;
+}
+
+.hero-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #f7f7ff, #ffffff);
+  border: 1px solid #ececec;
+  border-radius: 18px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  align-items: stretch;
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.06);
+}
+
+.hero-text {
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+
+.hero-title {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 950;
+  letter-spacing: -0.03em;
+}
+
+.hero-subtitle {
+  margin: 0;
+  color: #333;
+  line-height: 1.5;
+  font-size: 14px;
+  max-width: 44ch;
+}
+
+.hero-btn {
+  width: fit-content;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 14px;
+  font-weight: 900;
+  cursor: pointer;
+  background: #111;
+  color: white;
+}
+
+.hero-btn:hover {
+  transform: translateY(-1px);
+}
+
+.hero-image-wrap {
+  background: #f3f3f3;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 860px) {
+  .hero-inner {
+    grid-template-columns: 1fr;
+  }
+}

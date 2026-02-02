@@ -1,0 +1,57 @@
+/* AI Generated (ChatGPT) */
+.footer {
+  margin-top: 26px;
+  border-top: 1px solid #ececec;
+  background: #fff;
+}
+
+.footer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 22px 18px;
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr;
+  gap: 18px;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 950;
+}
+
+.footer-heading {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 900;
+  opacity: 0.8;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.footer-text {
+  margin: 0;
+  font-size: 13px;
+  color: #444;
+  line-height: 1.5;
+}
+
+.footer-bottom {
+  border-top: 1px solid #ececec;
+  padding: 12px 18px;
+  text-align: center;
+  font-size: 12px;
+  color: #555;
+}
+
+@media (max-width: 860px) {
+  .footer-inner {
+    grid-template-columns: 1fr;
+  }
+}
